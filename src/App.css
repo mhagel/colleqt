@@ -1,6 +1,7 @@
 .App {
-  text-align: center;
+  height: -webkit-fill-available;
   background-color: #00c07f;
+  text-align: center;
 }
 
 .App-header {
@@ -19,7 +20,6 @@
 .NewQuote {
   background-color: #f9f8fd;
   height: 200px;
-  width: 400px;
   padding: 20px;
   margin: 20px;
 }
@@ -27,21 +27,14 @@
 .Quote {
   background-color: #f1f0ee;
   height: 200px;
-  width: 400px;
   padding: 20px;
   margin: 5px;
 }
 
-/* .quote-text {
-  height: 90%;
-  width: 95%;
-} */
+.quote-text {
+  height: 112px;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quote-text textarea.form-control {
+  height: inherit;
 }

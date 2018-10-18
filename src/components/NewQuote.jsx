@@ -24,9 +24,13 @@ export class NewQuote extends Component {
                             <FormGroup>
                                 <Row>
                                     <Col md={12}>
-                                        <Input className="quote-text" type="textarea" name="text"></Input>
+                                        <div className="quote-text">
+                                            <Input type="textarea" name="text"></Input>
+                                        </div>
                                     </Col>
                                 </Row>
+                            </FormGroup>
+                            <FormGroup>
                                 <Row>
                                     <Col md={12}>
                                         <Button type="submit" size="sm">Save Quote</Button>

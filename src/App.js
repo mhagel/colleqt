@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="AppHeader">Quote Collector</h1>
+        <h1 className="App-header">Colleqt</h1>
         <NewQuote onAdd={this.addToCollection}/>
         <QuoteCollection quotes={this.state.quotes}/>
       </div>

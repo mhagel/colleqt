@@ -12,8 +12,10 @@ export class Quote extends Component {
 
     render() {
         return (
-            <Col md={4} className="Quote">
-                {this.quoteText}
+            <Col md={4} >
+                <div className="Quote">
+                    {this.quoteText}
+                </div>
             </Col>
         )
     }
